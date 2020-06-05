@@ -1,14 +1,22 @@
 ## Configuracion para usar webpack
 
+###Crear archivo package.json
+Nos situamos en la razi del proyecto y desde consola ejecutamos
+```
+npm init --y
+```
+
 ### packages
 yarn add webpack webpack-cli
 
 ### Creacion y configuracion de webpack.config.js
 Creamos un archivo en la raiz del proyecto con el nombre de webpack.config.js
 
-El archivo contiene la sigueinte configuracion
+El archivo contiene la siguiente configuracion
 
 ```js
+const path = require('path');
+
 module.exports = {
     entry:'./src/index.js',
     output:{
@@ -30,10 +38,12 @@ mode : Corresponde al mode de trabajo en que se esta ejecutando webpack (develop
 ### Agregando Script al archivo package.json para ejecutar webpack
 En este caso agregamos en la seccion de scripts la palabra build la cual corresponde al comando webpack el cual compilara el contenido del entrypoint y lo de sepositara en la ruta del output
 
+```json
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"webpack"
   },
+  ```
 
 ### index.html
 En el body de nuestro html agregamos el script que consuma el resultado
