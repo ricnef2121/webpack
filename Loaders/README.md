@@ -14,6 +14,7 @@ module.exports = {
     rules: []
   }
 };
+```
 
 Los  loaders se encuentra en un nivel alto de configuracion, estos tiene dos propiedades "test" y "use".
 
