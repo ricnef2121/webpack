@@ -23,7 +23,6 @@ Los  loaders se encuentra en un nivel alto de configuracion, estos tiene dos pro
 + La propiedad `test` identifica el tipo de archivo o archivos que se deberan transformar.
 + La propiedad `use` indica el loader que se debera usar para realizar la transformacion.
 
-Ejemplo
 ```js
 module.exports = {
   output: {

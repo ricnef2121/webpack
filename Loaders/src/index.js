@@ -1,3 +1,5 @@
-import hello from './hello';
+import addImg from './ADDimage';
+import addPng from './addPng';
 
-hello();
+addImg();
+addPng();
