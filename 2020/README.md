@@ -1,6 +1,6 @@
 ## Configuracion para usar webpack
 
-###Crear archivo package.json
+### Crear archivo package.json
 Nos situamos en la razi del proyecto y desde consola ejecutamos
 ```
 npm init --y
